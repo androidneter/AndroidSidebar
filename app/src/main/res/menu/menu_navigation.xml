@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/single_1"
+            android:icon="@drawable/ic_android_fill"
+            android:title="安卓"
+            app:actionLayout="@layout/bage_hint"/>
+
+        <item
+            android:id="@+id/single_2"
+            android:icon="@drawable/ic_apple_fill"
+            android:title="苹果"
+            app:actionLayout="@layout/vip_view"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/single_3"
+            android:icon="@drawable/ic_github_line"
+            android:title="github"/>
+
+        <item
+            android:id="@+id/single_4"
+            android:icon="@drawable/ic_wechat_fill"
+            android:title="wechat"/>
+    </group>
+
+    <item
+        android:title="子菜单">
+        <menu>
+            <item
+                android:id="@+id/item_2"
+                android:icon="@drawable/ic_taobao_fill"
+                android:title="淘宝"/>
+
+            <item
+                android:id="@+id/item_1"
+                android:icon="@drawable/ic_baidu_line"
+                android:title="百度"/>
+
+            <item
+                android:id="@+id/item_3"
+                android:icon="@drawable/ic_qq_fill"
+                android:title="腾讯"/>
+        </menu>
+    </item>
+</menu>

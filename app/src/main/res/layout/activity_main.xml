@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_style1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="style1"
+        android:text="侧边栏样式一  Android原生风格"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_style2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="style2"
+        android:text="侧边栏样式二 B站 网易云 滴滴"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_style1"/>
+
+    <Button
+        android:id="@+id/btn_style3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="style3"
+        android:text="侧边栏样式三  iOS风格侧滑"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_style2"/>
+
+    <Button
+        android:id="@+id/btn_style4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="style4"
+        android:text="侧边栏样式四（仿QQ 5.0.0）"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_style3"/>
+
+    <Button
+        android:id="@+id/btn_style5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="style5"
+        android:text="侧边栏样式五（仿QQ 8.0.0）"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_style4"/>
+</android.support.constraint.ConstraintLayout>
